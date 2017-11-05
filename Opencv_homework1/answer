@@ -1,0 +1,6 @@
+How does a program read the cvMat object, in particular, what is the order of the pixel structure?
+
+The cvMat in cpp is a matrix, each of whose indice represents each pixel in am image. Since it is like an matrix(2D array)
+, we can access the pixels in cvMat by using cvMat(should be an cvMat Object name).at(x,y). If the pixel has multiple color
+channels, we could access a pixel by using cvMat.at(x,y)[index], where index indicates which channel we want to access the
+pixel.
