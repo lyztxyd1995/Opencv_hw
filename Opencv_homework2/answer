@@ -1,0 +1,7 @@
+Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image.
+What are the ranges of pixel values in each channel of each of the above mentioned colorspaces?
+
+The print out values are shown in file pixelResult.txt in this folder.
+For RGB， the three channels all range from 0-255.
+For HSV, the H channel ranges from 0-180 and both S and V channel range from 0-255.
+For YCbCr, three channels all range from 0-255.
