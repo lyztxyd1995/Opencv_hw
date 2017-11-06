@@ -1,0 +1,12 @@
+1.Comment on the results.
+We could see from the output that different thresholds keep different features of the original image. The Adaptive and 
+BinaryThreshold filtering keep more same features of the original image and Threshold as well as SemiThreshold keep less.
+
+2.What are the disadvantages of binary threshold?
+The BinaryThreshold will highlight part of the features but ignore the others. For example, in dealing with the Lenna picture,
+it highlights her face and ignore the background. It will be useful when we want to highligh some parts in an image, but it will
+ignore many details.
+
+3.When is Adaptive Threshold useful?
+The adaptive threshold will be useful when we want to perform multiple processes on the same page at different levels. It is 
+because is allows us to apply multiple thresholds at the same time.
